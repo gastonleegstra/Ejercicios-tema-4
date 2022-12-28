@@ -24,6 +24,10 @@ public class Main {
             System.out.println(numeroDoWhile);
         }while (numeroDoWhile<3);
 
+        for (int i=0;i<=3;i++){
+            System.out.println(i);
+        }
+
         String mjs="Estación";
         var estacion = "Primavera";
         switch (estacion)
