@@ -3,11 +3,11 @@ public class Main {
         int numeroif = 0;
         String resultado = "";
         if (numeroif<0){
-            resultado = "El nùmero es negativo";
+            resultado = "la variable numeroif "+ numeroif + " es negativa";
         } else if (numeroif>0) {
-            resultado = "El nùmero es positivo";
+            resultado = "la variable numeroif "+ numeroif + " es positiva";
         }else{
-            resultado = "El nùmero es cero";
+            resultado = "la variable numeroif "+ numeroif + " es cero";
         }
         System.out.println(resultado);
 
@@ -18,10 +18,11 @@ public class Main {
             System.out.println(numeroWhile);
         }
 
+        int numeroDoWhile = 3;
         do{
-            numeroWhile++;
-            System.out.println(numeroWhile);
-        }while (numeroWhile<3);
+            numeroDoWhile++;
+            System.out.println(numeroDoWhile);
+        }while (numeroDoWhile<3);
 
         String mjs="Estación";
         var estacion = "Primavera";
